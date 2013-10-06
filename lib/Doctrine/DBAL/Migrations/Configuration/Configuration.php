@@ -496,6 +496,7 @@ class Configuration
 
             return true;
         }
+        $this->migrationTableCreated = true;
 
         return false;
     }
